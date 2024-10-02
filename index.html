@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scheduler</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app">
+        <div id="form-container">
+            <form id="scheduleForm">
+                <input type="text" name="time" placeholder="Время" required>
+                <input type="text" name="group" placeholder="Группы" required>
+                <input type="text" name="lesson" placeholder="Дисциплина" required>
+                <input type="text" name="type" placeholder="Тип занятия" required>
+                <input type="text" name="room" placeholder="Аудитория" required>
+                <button type="submit">Добавить расписание</button>
+            </form>
+        </div>
+        <div id="table-container">
+            <table id="scheduleTable">
+                <thead>
+                    <tr>
+                        <th>Время</th>
+                        <th>Группы</th>
+                        <th>Дисциплина</th>
+                        <th>Тип занятия</th>
+                        <th>Аудитория</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
